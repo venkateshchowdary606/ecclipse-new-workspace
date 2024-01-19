@@ -24,7 +24,7 @@ public synchronized void deposit(int amount) {
 	temp=temp+amount;
 	balance=temp;
 	System.out.println("deposit sucessful");
-	System.out.println("balance="+balance);
+	System.out.println("balance="+balance); 
 	
 }
 public void checkBalance() {
